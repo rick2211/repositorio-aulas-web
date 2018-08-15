@@ -1,0 +1,73 @@
+* {
+	list-style-type:none;
+	margin: 0;
+	padding: 0;
+}
+
+#ex1 {
+	width: 200px;
+	margin:0px;
+}
+
+.titulo_texto, .atributo_texto{
+	text-decoration: none;
+}
+
+.titulo {
+	font-family: Verdana;
+	background: linear-gradient(#969494, #64605f);
+	padding: 8px;
+	border-bottom: 3px #757271 solid;
+}
+
+.titulo_texto{
+	color: #FFFFFF;
+	font-weight:bold;
+	font-size:14px;
+}
+
+.atributo{
+	border: 1px gray solid;
+	padding: 5px;
+	background: #e7e7e7;
+}
+
+.atributo:hover{
+	background-color: white;
+	transition: 0.6s;
+}
+
+.atributo_texto{
+	color: #9b9b9b;
+	font-family: Verdana;
+	font-size: 12px;
+}
+
+.atributo_texto:hover{
+	color: #000;
+	transition: 0.6s;
+}
+
+/*  Exercicio 2 */
+hr {
+	margin-top: 20px; margin-bottom: 20px;
+}
+
+
+.atributo2{
+	display: inline;
+	background-color: #978e81;
+	padding: 10px;
+	padding-left: 20px;
+	padding-right: 20px;
+	margin-right: 3px;
+
+}
+.atributo_texto2{
+	font-family: Verdana;
+	font-size: 12px;
+	color: white;
+	text-decoration: none;
+	font-weight: bold;
+}
+

@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Inscrição de Evento</title>
+  </head>
+  <body>
+    <form name="Agenda" action="agendar" method="post">
+      <fieldset>
+        <br>
+        <legend>Inscrição de Evento</legend>
+        <label for="Nome">Nome:</label>
+        <input type="text" name="nome"  id="idNome">
+        <label for="E-mail">Email:</label>
+        <input type="text" name="email">
+
+        <label for="telCelular">Celular:</label>
+        <input type="text" name="telCelular" value>
+
+        <label for="dataNas">Data Nascimento:</label>
+        <input type="text" name="dataNas" value>
+        <label for="empresa">Empresa:</label>
+        <input type="text" name="empresa" value>
+        <br>
+        <label for="cargo">Cargo:</label>
+        <input type="radio" name="proprietario" value="Proprietario">Proprietario
+        <input type="radio" name="socio" value="Sócio">Sócio
+        <input type="radio" name="diretoria" value="Diretoria">Diretoria
+        <input type="radio" name="gerencia" value="Gerencia">Gerencia
+        <input type="radio" name="supervisao" value="Suprevisão">Supervisão
+        <input type="radio" name="outro" value="Outro">Outro
+        <br>
+        <br>
+        <label for="cidade">Cidade:</label>
+        <input type="text" name="Cidade">
+        <label for="UF">UF:</label>
+        <select name="Uf"id="idUf">
+          <option value="rioJaneiro">RJ</option>
+          <option value="saoPaulo">SP</option>
+          <option value="minasGerais">MG</option>
+          <option value="santaCatarina">SC</option>
+          <option value="bahia">BH</option>
+          <option value="para">PR</option>
+        </select>
+        <br>
+        <br>
+        <label for="tipoInscricao"> Tipo Inscrição:</label>
+        <input type="radio" name="Pessoa Fisica" value=" Pessoal Fisica"> Pessoa Física
+        <input type="radio" name="Pessoa Juridica" value="Pessoa Juridica ">Pessoa Jurídica
+        <br>
+        <label for="ficouSabendo">Como ficou sabendo do evento?</label>
+        <input type="checkbox" name="Revistas" value="Revistas">Revistas
+        <input type="checkbox" name="jornais" value="Jornais">Jornais
+        <input type="checkbox" name="televisao" value="Televisão">Televisão
+        <input type="checkbox" name="internet" value="Internet">Internet
+        <input type="checkbox" name="patrocinadores" value="Patrocinadores">Patrocinadores
+        <input type="checkbox" name="outros" value="Outros">Outros
+        <br>
+        <label for="qualEvento">Qual interesse no evento?</label>
+        <input type="checkbox" name="Palestras" value="Palestras">Palestras
+        <input type="checkbox" name="worksShops" value="WorksShops">WorksShops
+        <input type="checkbox" name="estutantes" value="Estandes">Estandes
+        <input type="checkbox" name="treinamentos" value="Treinamentos">Treinamentos
+        <input type="checkbox" name="outros" value="Outros">Outros
+        <br>
+        <label for="nomeCracha">Nome Cracha:</label>
+        <input type="text" name="Nome Cracha" >
+        <br>
+        <label for="formaPagamento">Forma Pagamento</label>
+        <select name="formaPagamento"id="formaPagamento">
+          <option value="boleto">Boleto Bancario</option>
+          <option value="cartao">Cartão de Credito</option>
+        </select>
+        <br>
+        <label for="desejaemail">Deseja receber informações por Email?</label>
+        <input type="checkbox" name="" value="">
+        <br>
+        <label for="desejaSms">Deseja receber informações por SMS?</label>
+        <input type="checkbox" name="" value="">
+        <br>
+        Comentários Gerais:
+        <br>
+        <textarea name="comentarioGerais" rows="10" cols="70"></textarea>
+        <button type="submit" name="button">Enviar</button>
+        <button type="submit" name="button">Limpar</button>
+      </fieldset>
+    </form>
+  </body>
+</html>

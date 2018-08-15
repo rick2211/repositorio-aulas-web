@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Agenda de Contato</title>
+  </head>
+  <body>
+    <form  name="Agenda" action="agendar" method="post">
+      <fieldset>
+        <legend>Agenda de Contato</legend>
+        <br>
+        <label for="Nome">Nome:</label>
+        <input type="text" name="nome"  id="idNome">
+        <label for="E-mail">Email:</label>
+        <input type="text" name="email">
+        <label for="tipoEmail">Tipo Email:</label>
+        <input type="radio" name="tipoEmail" value="comercial">Comercial
+        <input type="radio" name="tipoEmail" value="Pessoal">Pessoal
+        <br>
+        <label for="cargo">Cargo:</label>
+        <select name="cargo"id="idcargo">
+          <option value="presidente">Presidente</option>
+          <option value="vicePresidente">Vice Presidente</option>
+          <option value="diretor">Diretor</option>
+          <option value="gerente">Gerente</option>
+          <option value="supervisor">Supervisor</option>
+          <option value="assistente">Assistente</option>
+        </select>
+        <br>
+        <label for="empresa">Empresa:</label>
+        <input type="text" name="empresa" value>
+        <label for="telComercial">Telefone Comercial:</label>
+        <input type="text" name="telefoneComercial">
+        <label for="telCelular">Celular:</label>
+        <input type="text" name="telCelular" value>
+        <label for="tipoContado">Tipo Contato:</label>
+        <input type="checkbox" name="manequin" value="comercial">Comercial
+        <input type="checkbox" name="manequin" value="pessoal">Pessoal
+        <button type="submit" name="button">Enviar</button>
+        <button type="submit" name="button">Limpar</button>
+      </fieldset>
+    </form>
+  </body>
+</html>

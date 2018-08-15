@@ -1,0 +1,19 @@
+* {
+	margin:0px;
+	padding:0px;
+}
+
+.caixa {
+	border: 1px black solid;
+	width: 450px;
+	margin: 0 auto;
+	margin-top: 100px;
+}
+
+.caixa p{
+	font-family: Verdana;
+	font-size: 12px;
+	text-align: center;
+	margin: 7px;
+	color: red;
+}

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Preferências</title>
+  </head>
+  <body>
+    <form name="Preferencias" action="logar" method="post">
+      <fieldset>
+        <legend>Preferências</legend>
+        <label for="Nome">Nome:</label>
+        <input type="text" name="nome"  id="idNome">
+        <label for="E-mail">Email</label>
+        <input type="text" name="email">
+        <label for="corFavorita">Cor Favorita:</label>
+        <select name="corFavorita"id="idCor">
+          <option value="Azul">Azul</option>
+          <option value="Preto">Preto</option>
+          <option value="Vermelho">Vermelho</option>
+          <option value="Verde">Verde</option>
+          <option value="Amarelo">Amarelo</option>
+          <option value="Branco">Branco</option>
+        </select>
+        <br>
+        <label for="manequin">Manequim:</label>
+        <input type="radio" name="manequin" value="p">Pequeno
+        <input type="radio" name="manequin" value="medio">Medio
+        <input type="radio" name="manequin" value="grande">Grande
+        <input type="radio" name="manequin" value="extraGrande"> Extra grande
+        <br>
+        <label for="estiloPreferido">Estilo Preferido:</label>
+        <input type="checkbox" name="manequin" value="descojado">Despojado
+        <input type="checkbox" name="manequin" value="casual">Casual
+        <input type="checkbox" name="manequin" value="esporte">Esporte
+        <input type="checkbox" name="manequin" value="social">Social
+        <button type="submit" name="button">Enviar</button>
+        <button type="submit" name="button">Limpar</button>
+      </fieldset>
+    </form>
+  </body>
+</html>

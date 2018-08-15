@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Cálculo Gorjeta</title>
+  </head>
+  <body>
+    <form name="Gorjeta" action="CalcularGordeja" method="post">
+      <fieldset>
+        <legend>Cálculo de Gorgeta</legend>
+        <label for="valorConta">Valor da Conta :</label>
+        <input type="text" name="valorConta">
+        <label for="porcentagemG">Porcentagem Gorgeta:</label>
+        <select name="porcentagemG">
+          <option value="5">5%</option>
+          <option value="10">10%</option>
+          <option value="15">15%</option>
+          <option value="20">20%</option>
+        </select>
+        <label for="numeroPessoas">Numero de Pessoas</label>
+        <input type="text" name="numeroPessoas" value="">
+        <button type="submit" name="button">Enviar</button>
+        <button type="submit" name="button">Limpar</button>
+      </fieldset>
+    </form>
+  </body>
+</html>

@@ -1,0 +1,38 @@
+*{
+  font:13px Arial, Helvetica, Verdana;
+  margin: 0;
+  padding: 0;
+}
+header h1{
+  color: purple;
+}
+header{
+
+  text-align: center;
+  margin: 30px;
+  padding: 30px;
+  text-align: center;
+  border-radius: 20px 20px 0 0;
+  border-bottom: 4px darkgrey dashed;
+
+}
+h1{
+  font-family Verdana;
+  font-size: 20px;
+  font: 40px Arial, Helvetica, Verdana;
+  color: darkred;
+  font-weight: bold;
+  text-align: center;
+}
+main{
+  margin: 30px 40px;
+  width: 65%;
+}
+aside{
+  width:
+  float: right;
+  margin: 20px 30px;
+}
+footer{
+  clear: both;
+}
